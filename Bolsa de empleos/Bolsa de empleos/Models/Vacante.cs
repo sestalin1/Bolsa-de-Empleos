@@ -7,6 +7,7 @@ using System.Web;
 
 namespace Bolsa_de_empleos.Models
 {
+    [Table(name: "Vacantes")]
     public class Vacante
     {
         [Key]

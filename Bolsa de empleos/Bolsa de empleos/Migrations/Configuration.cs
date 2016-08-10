@@ -1,6 +1,8 @@
 namespace Bolsa_de_empleos.Migrations
 {
+    using Models;
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
@@ -15,18 +17,32 @@ namespace Bolsa_de_empleos.Migrations
 
         protected override void Seed(Bolsa_de_empleos.Models.ApplicationDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            var roles = new List<ApplicationRole>
+            {
+                new ApplicationRole {Id="adm", Name="Administrador" },
+                new ApplicationRole {Id="usr", Name="User" },
+                new ApplicationRole {Id="pst", Name="Poster" },
+                new ApplicationRole {Id="aft", Name="Affiliate" }
+            };
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            roles.ForEach(g => context.Roles.Add(g));
+            context.SaveChanges();
+
+            var conf = new List<Configuracion>
+            {
+                new Configuracion { id=1,idioma="esp",cantidadEmpleos=30,diasEmpleos=5}
+            };
+
+            conf.ForEach(g => context.configuraciones.Add(g));
+            context.SaveChanges();
+
+            var usu = new List<ApplicationUser>
+            {
+                new ApplicationUser {UserName="ses",nombre="JL",apellido="DR",email="mail@text.com",estatus=true,rol="adm",PasswordHash="123@A"}
+            };
+
+            usu.ForEach(g => context.Users.Add(g));
+            context.SaveChanges();
         }
     }
 }

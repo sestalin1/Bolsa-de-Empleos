@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -163,9 +164,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201608100328267_A.cs" />
-    <Compile Include="Migrations\201608100328267_A.Designer.cs">
-      <DependentUpon>201608100328267_A.cs</DependentUpon>
+    <Compile Include="Migrations\201608101533515_A.cs" />
+    <Compile Include="Migrations\201608101533515_A.Designer.cs">
+      <DependentUpon>201608101533515_A.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -234,8 +235,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201608100328267_A.resx">
-      <DependentUpon>201608100328267_A.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201608101533515_A.resx">
+      <DependentUpon>201608101533515_A.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

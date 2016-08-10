@@ -55,3 +55,60 @@ c:\users\'sestalin\documents\visual studio 2013\Projects\Bolsa de empleos\Bolsa 
 c:\users\'sestalin\documents\visual studio 2013\Projects\Bolsa de empleos\Bolsa de empleos\obj\Debug\Bolsa de empleos.pdb
 C:\Users\'SeStalin\Documents\Visual Studio 2013\Projects\Bolsa de empleos\Bolsa de empleos\obj\Debug\Bolsa_de_empleos.Migrations.A.resources
 C:\Users\'SeStalin\Documents\Visual Studio 2013\Projects\Bolsa de empleos\Bolsa de empleos\obj\Debug\Bolsa de empleos.csproj.GenerateResource.Cache
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Bolsa de empleos.dll.config
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Bolsa de empleos.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Bolsa de empleos.pdb
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Antlr3.Runtime.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\EntityFramework.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\EntityFramework.SqlServer.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Newtonsoft.Json.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Owin.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.Helpers.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.Mvc.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.Optimization.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.Razor.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.WebPages.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.WebPages.Razor.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\WebGrease.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.Helpers.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.Mvc.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.Optimization.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.Razor.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.WebPages.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\System.Web.WebPages.Razor.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Newtonsoft.Json.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Antlr3.Runtime.pdb
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\EntityFramework.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\EntityFramework.SqlServer.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\obj\Debug\Bolsa de empleos.csprojResolveAssemblyReference.cache
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\obj\Debug\Bolsa de empleos.dll
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\obj\Debug\Bolsa de empleos.pdb
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\obj\Debug\Bolsa_de_empleos.Migrations.A.resources
+C:\Users\juan.delacruz\Source\Repos\Bolsa-de-Empleos\Bolsa de empleos\Bolsa de empleos\obj\Debug\Bolsa de empleos.csproj.GenerateResource.Cache

@@ -7,6 +7,7 @@ using System.Data.Entity;
 namespace Bolsa_de_empleos.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
+
     public class ApplicationUser : IdentityUser
     {
         [Required]
@@ -45,7 +46,7 @@ namespace Bolsa_de_empleos.Models
         public DbSet<CategoriaTrabajo> CategoriasTrabajo { get; set; }
     }
 
-    public class AppInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<ApplicationDbContext>
+    public class AppInitializer : System.Data.Entity.DropCreateDatabaseAlways<ApplicationDbContext>
     {
         protected override void Seed(ApplicationDbContext context)
         {
@@ -74,7 +75,7 @@ namespace Bolsa_de_empleos.Models
                 new ApplicationUser {UserName="ses",nombre="JL",apellido="DR",email="mail@text.com",estatus=true,rol="adm",PasswordHash="123@A"}
             };
 
-            conf.ForEach(g => context.configuraciones.Add(g));
+            usu.ForEach(g => context.Users.Add(g));
             context.SaveChanges();
 
         }
