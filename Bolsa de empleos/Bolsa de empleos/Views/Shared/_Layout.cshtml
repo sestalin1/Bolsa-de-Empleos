@@ -20,7 +20,25 @@
                 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                 @if (Request.IsAuthenticated)
-{
+                {
+                    <div class="row col-sm-7">
+
+                        <div class=" col-sm-offset-4">
+                            <div class="input-group col-sm-8">
+                            
+                                <input type="text" class="form-control " placeholder="Buscar Empleo...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <a href="/Vacantes/Index">
+                                            <i class="glyphicon glyphicon-search"></i>
+                                        </a>
+                                    </button>
+                                </span>
+                            </div><!-- /input-group -->
+                        </div><!-- /.col-lg-6 -->
+                    </div><!-- /.row -->
+
+
                     <ul class="nav navbar-nav ">
                         
                         <li class="navbar-right" >
@@ -45,25 +63,11 @@
             </div>
         </div>
     <div class="container body-content">
-        <div class="row">
-           
-            <div class="col-sm-7">
-                <div class="input-group col-sm-offset-8">
-                    <input type="text" class="form-control " placeholder="Buscar Empleo...">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button" >
-                            <a href="/Vacantes/Index">
-                                <i class="glyphicon glyphicon-search"></i>
-                            </a>
-                        </button>
-                    </span>
-                </div><!-- /input-group -->
-            </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
+       
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Bolsa de Empleos</p>
         </footer>
     </div>
 
