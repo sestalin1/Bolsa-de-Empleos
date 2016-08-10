@@ -22,10 +22,11 @@ namespace Bolsa_de_empleos.Models
         [Required]
         public string email { get; set; }
 
-        [Required]
-        [ForeignKey("Roles")]
-        public string rol { get; set; }
-        //public ApplicationRole role { get; set; }
+        
+        public string webSite { get; set; }
+
+       
+        
 
     }
 
@@ -44,6 +45,7 @@ namespace Bolsa_de_empleos.Models
         public DbSet<Vacante> Vacantes { get; set; }
         public DbSet<Configuracion> configuraciones { get; set; }
         public DbSet<CategoriaTrabajo> CategoriasTrabajo { get; set; }
+        public DbSet<IdentityUserRole> AppUserRoles { get; set; }
     }
 
     public class AppInitializer : System.Data.Entity.DropCreateDatabaseAlways<ApplicationDbContext>
@@ -72,7 +74,7 @@ namespace Bolsa_de_empleos.Models
 
             var usu = new List<ApplicationUser>
             {
-                new ApplicationUser {UserName="ses",nombre="JL",apellido="DR",email="mail@text.com",estatus=true,rol="adm",PasswordHash="123@A"}
+                new ApplicationUser {UserName="ses",nombre="JL",apellido="DR",email="mail@text.com",estatus=true,PasswordHash="123@A"}
             };
 
             usu.ForEach(g => context.Users.Add(g));

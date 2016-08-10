@@ -9,27 +9,57 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", null, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
+    
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <img src="~/favicon.ico" class="img-responsive navbar-brand" width="50" />
+                    @Html.ActionLink("Bola de Empleos", "Index", "Home", new { area = "" }, new { @class = "navbar-brand " })
+
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                @if (Request.IsAuthenticated)
+{
+                    <ul class="nav navbar-nav ">
+                        
+                        <li class="navbar-right" >
+                            
+                        </li>
+
+                                <li class="dropdown navbar-right">
+                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-expanded="false"><i class="glyphicon glyphicon-cog"></i> Administrar <span class="caret"></span></a>
+                                    <ul class="dropdown-menu " role="menu">
+                                        <li>@Html.ActionLink("Categorias de Trabajo", "Index", "CategoriasTrabajo")</li>
+                                        <li class="divider"></li>
+                                        <li>@Html.ActionLink("Cofiguraciones", "Index", "Configuraciones")</li>
+                                    </ul>
+                                </li>
+                           
+                    </ul>
+
+                                    }
+                    @Html.Partial("_LoginPartial")
+
+                </div> 
             </div>
         </div>
-    </div>
     <div class="container body-content">
+        <div class="row">
+           
+            <div class="col-sm-7">
+                <div class="input-group col-sm-offset-8">
+                    <input type="text" class="form-control " placeholder="Buscar Empleo...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" >
+                            <a href="/Vacantes/Index">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </a>
+                        </button>
+                    </span>
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
         @RenderBody()
         <hr />
         <footer>

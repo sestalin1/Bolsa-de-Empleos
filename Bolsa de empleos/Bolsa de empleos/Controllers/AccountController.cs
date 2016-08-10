@@ -9,12 +9,15 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using Bolsa_de_empleos.Models;
+using System.Web.Security;
 
 namespace Bolsa_de_empleos.Controllers
 {
     [Authorize]
     public class AccountController : Controller
     {
+        ApplicationDbContext db = new ApplicationDbContext();
+
         public AccountController()
             : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
         {
@@ -78,10 +81,14 @@ namespace Bolsa_de_empleos.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser() { UserName = model.UserName };
+                
+                var user = new ApplicationUser() { UserName = model.UserName,nombre=model.Nombre,apellido=model.Apellido,email=model.email,estatus=true };
+                //user.Roles.Add(new IdentityUserRole{ UserId= user.UserName,RoleId="user" });
+                db.AppUserRoles.Add(new IdentityUserRole { UserId = user.UserName, RoleId = "user" });
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    
                     await SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Home");
                 }
